@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2720519123451799070}
   - component: {fileID: 6384484714619558952}
   - component: {fileID: 839558967536689361}
+  - component: {fileID: 2527036662972601275}
+  - component: {fileID: 7741133382285060943}
   m_Layer: 0
   m_Name: knikker 3
   m_TagString: Untagged
@@ -27,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1412547409197044749}
   m_LocalRotation: {x: 0, y: 0.58753955, z: -0, w: 0.80919546}
   m_LocalPosition: {x: -0, y: 0.48563883, z: 0}
-  m_LocalScale: {x: 47.53061, y: 47.53061, z: 47.53061}
+  m_LocalScale: {x: 8.269327, y: 8.269327, z: 8.269327}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,3 +80,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &2527036662972601275
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412547409197044749}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.010000002
+  m_Center: {x: 0.0000000013969839, y: 9.313226e-10, z: -0.0000000023283064}
+--- !u!54 &7741133382285060943
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412547409197044749}
+  serializedVersion: 2
+  m_Mass: 0.08
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
