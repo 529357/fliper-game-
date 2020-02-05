@@ -520,7 +520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   junkFood1: {fileID: 1412547409197044749, guid: 20c466361f811194cbef0e77f92e5b18,
     type: 3}
-  junkFood2: {fileID: 0}
+  junkFood2: {fileID: 1412547409197044749, guid: 5bea4500cc856f34ea35ae19bc8fc486,
+    type: 3}
   junkFood3: {fileID: 0}
   junkFood4: {fileID: 0}
   healthyFood1: {fileID: 0}
