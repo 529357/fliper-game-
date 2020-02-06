@@ -8,6 +8,7 @@ TagManager:
   - Balk
   - FatBall
   - Fat
+  - WeightBall
   layers:
   - Default
   - TransparentFX

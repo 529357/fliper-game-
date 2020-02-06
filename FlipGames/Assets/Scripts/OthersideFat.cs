@@ -10,5 +10,9 @@ public class OthersideFat : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        else if (other.CompareTag("WeightBall"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

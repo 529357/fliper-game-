@@ -23,11 +23,10 @@ public class OntriggerDSTR : MonoBehaviour
             Destroy(other.gameObject);
         }
 
-        else if (other.CompareTag("HealthyBall"))
+        else if (other.CompareTag("WeightBall"))
         {
             Destroy(other.gameObject);
         }
     }
 
-   
 }

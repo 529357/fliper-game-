@@ -15,6 +15,12 @@ public class OntriggerFat : MonoBehaviour
 
             Destroy(other.gameObject);
         }
+        else if (other.CompareTag("WeightBall"))
+        {
+            fatPoints--;
+
+            Destroy(other.gameObject);
+        }
     }
 
     public void Update()
