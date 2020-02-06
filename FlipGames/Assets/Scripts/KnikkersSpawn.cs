@@ -17,7 +17,7 @@ public class KnikkersSpawn : MonoBehaviour
     {
         if (Time.time > nextSpawn)
         {
-            whatToSpawn = Random.Range(1, 6);
+            whatToSpawn = Random.Range(1, 8);
             Debug.Log(whatToSpawn);
 
             switch (whatToSpawn) {
