@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1730014638169961187}
   m_Layer: 0
   m_Name: knikker 5 (1)
-  m_TagString: Ball
+  m_TagString: FatBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
